@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  padding: 30px 0 0;
+  width: 800px;
+  background: lightgray;
+  margin: 0 auto;
+}
+
+.controls-panel {
+  padding: 30px 0 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px;
+  height: 4px;
+  width: 90%;
+}
+
+.progress {
+  background: #242323;
+  border-radius: 5px;
+  height: 100%;
+  width: 0;
+  transition: width 0.1s linear;
+}
+
+.duration-wrapper {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+button {
+  padding: 15px 10px;
+}

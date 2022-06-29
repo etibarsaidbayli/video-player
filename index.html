@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <video width="800" height="400" poster="" id="video-player">
+      <source src="" />
+    </video>
+    <div class="progress-container" id="progress-container">
+      <div class="progress" id="progress"></div>
+      <div class="duration-wrapper">
+        <span id="current-time">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+    </div>
+    <div class="controls-panel">
+      <div><button id="play">Play</button></div>
+      <div><button id="pause">Pause</button></div>
+      <div><button id="stop">Stop</button></div>
+      <div><button id="speed-up">quickly</button></div>
+      <div><button id="speed-down">Slow</button></div>
+      <div><button id="speed-normal">Normal</button></div>
+      <div><input type="range" id="volume" min="0" max="100" />Volume</div>
+      <div><button id="prev">Prev</button></div>
+      <div><button id="next">Next</button></div>
+    </div>
+
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
